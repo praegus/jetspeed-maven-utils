@@ -24,13 +24,18 @@
     <maven>2.0.9</maven>
   </prerequisites>
 
+  <properties>
+    <jetspeed-base-version>2.3.1</jetspeed-base-version>
+  </properties>
+
+
   <!-- Praegus gid -->
   <groupId>nl.praegus</groupId>
 
   <artifactId>jetspeed-maven-utils</artifactId>
   <name>Jetspeed 2 Maven Utils</name>
   <description>Jetspeed 2 Maven Utils</description>
-  <version>2.3.2-SNAPSHOT</version>
+  <version>2.3.2</version>
 
   <parent>
     <groupId>org.apache.portals.jetspeed-2</groupId>
@@ -47,6 +52,7 @@
     <dependency>
       <groupId>org.apache.portals.jetspeed-2</groupId>
       <artifactId>jetspeed-api</artifactId>
+      <version>${jetspeed-base-version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -83,7 +89,7 @@
       <connection>scm:git:git@gitlab.com:praegus/jetspeed-maven-plugins/jetspeed-maven-utils.git</connection>
       <url>https://gitlab.com/praegus/jetspeed-maven-plugins/jetspeed-maven-utils.git</url>
       <developerConnection>scm:git:git@gitlab.com:praegus/jetspeed-maven-plugins/jetspeed-maven-utils.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>jetspeed-maven-utils-2.3.2</tag>
     </scm>
 
     <profiles>
