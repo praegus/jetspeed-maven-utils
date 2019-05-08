@@ -31,6 +31,7 @@
   <name>Jetspeed 2 Maven Utils</name>
   <description>Jetspeed 2 Maven Utils</description>
   <version>2.3.2-SNAPSHOT</version>
+
   <parent>
     <groupId>org.apache.portals.jetspeed-2</groupId>
     <artifactId>maven</artifactId>
